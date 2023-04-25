@@ -7,59 +7,59 @@ export class salesforceentityController {
     
     constructor() { }
     
-    public GpDelete(req: Request, res: Response) {
+    public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpDelete(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpDelete');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpDelete');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
-public GpSearch(req: Request, res: Response) {
+public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpSearch(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpSearch');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpSearch');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
-public GpUpdate(req: Request, res: Response) {
+public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpUpdate(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpUpdate');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpUpdate');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
-public GpGetEntityById(req: Request, res: Response) {
+public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpGetEntityById(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpGetEntityById');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpGetEntityById');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
-public GpGetAllValues(req: Request, res: Response) {
+public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpGetAllValues(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpGetAllValues');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpGetAllValues');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
-public GpCreate(req: Request, res: Response) {
+public (req: Request, res: Response) {
     new CustomLogger().guidLog(req);
     
-    salesforceentity.GpCreate(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: GpCreate');
+    salesforceentity.(req, (response) => {
+                new CustomLogger().showLogger('info', 'Enter into salesforceentityController.ts: ');
      res.status(200);
      res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: GpCreate');
+                new CustomLogger().showLogger('info', 'Exit from salesforceentityController.ts: ');
     })}
 public GpGetNounCreatedBy(req: Request, res: Response) {
     new CustomLogger().guidLog(req);

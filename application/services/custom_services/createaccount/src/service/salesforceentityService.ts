@@ -8,56 +8,56 @@ export class salesforceentityService {
     
     constructor() { }
     
-    public  GpDelete(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpDelete')
-     let  salesforceentityId = req.params.id;
-     salesforceentity.GpDelete(salesforceentityId,(response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpDelete')
+    public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }
     
-public  GpSearch(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpSearch')
-     let  salesforceentityData = req.query;
-     salesforceentity.GpSearch(salesforceentityData,(response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpSearch')
+public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }
     
-public  GpUpdate(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpUpdate')
-     let  salesforceentityData = req.body;
-     salesforceentity.GpUpdate(salesforceentityData,(response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpUpdate')
+public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }
     
-public  GpGetEntityById(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpGetEntityById')
-     let  salesforceentityId = req.params.id;
-     salesforceentity.GpGetEntityById(salesforceentityId,(response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpGetEntityById')
+public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }
     
-public  GpGetAllValues(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpGetAllValues')
-     
-     salesforceentity.GpGetAllValues((response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpGetAllValues')
+public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }
     
-public  GpCreate(req: Request, callback){
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: GpCreate')
-     let  salesforceentityData = req.body;
-     salesforceentity.GpCreate(salesforceentityData,(response)=>{
-             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: GpCreate')
+public  (req: Request, callback){
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityService.ts: ')
+     let  salesforceentityData = { created_by: req.query.createdby };
+     salesforceentity.(salesforceentityData,(response)=>{
+             new CustomLogger().showLogger('info', 'Exit from salesforceentityService.ts: ')
          callback(response);
          });
     }

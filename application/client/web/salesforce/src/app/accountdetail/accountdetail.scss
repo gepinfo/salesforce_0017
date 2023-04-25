@@ -1,0 +1,1096 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.gjs-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.gjs-cell {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#template-i40s {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+#template-ijif {
+    margin: 30px10px30px10px;
+}
+
+#template-icgx {
+    margin: 050px050px;
+    border: 1pxsolid#d0d0d0;
+    border-radius: 10px10px10px10px;
+}
+
+#template-ipgn {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 65px000;
+}
+
+#template-i340z {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ilj15 {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-in8x {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-inviy {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iwazh {
+    margin: 050px050px;
+    border: 1pxsolid#d0d0d0;
+    border-radius: 10px10px10px10px;
+}
+
+#template-iyu8q {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i5oth {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-i6yxc {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-ip4zt {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-i1gcl {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-iof3g {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ibk1h {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i8lqq {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-icdjc {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-iqqre {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-iteup {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ipgq2 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-il6b4 {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i2vbc {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-ipf2y {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ima0z {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-io82w {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ib1us {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-id4wd {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-ij6pj {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-i2rgp {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-iiygh {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i6i7n {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i9ihq {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-ikchi {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-i8kvw {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-iwuxi {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iirw7 {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-icpyw {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-ih3z8 {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ixfdk {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-izqb9 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iwag4 {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-ixxbw {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-i4lng {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-i9lj7x {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-i6j8ff {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iup5xh {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-iqiqd1 {
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#template-i9gtc6 {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ih0lmd {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ig7p6h {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i5c6s5 {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-il50qy {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-isms9y {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ixzodf {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-iqrymo {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-io70ek {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-ilyps5 {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-iwugfi {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-iucjbn {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ife5gf {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ibhjjl {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i5llof {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-i227d4 {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ifnt1g {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-icpkpv {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i5i0nj {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-izxns9 {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-idhewu {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ip1nue {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ir2q9k {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-idotre {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i9co0j {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-itqvz6 {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-im175h {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-im8yun {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-icgxvk {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-ieo7yj {
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#template-ifvssf {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ic78p5 {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-ir3a5s {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-itvsqn {
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#template-i3henp {
+    min-height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#template-itemof {
+    justify-content: center;
+    text-align: left;
+    font-family: Georgiaserif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#template-ive3km {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    align-items: center;
+}
+
+#template-i6pew2 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ia07c {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-in1qdv {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-ilqsux {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-iozyh {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-if43iw {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-iwp9bs {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-i32rir {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-ix1x56 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-in10f8 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i786ig {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-iz9z24 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-ih66k6 {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-iky19l {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-imu5oa {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-i51s8o {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-ib6uui {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-ixevs6 {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-idtazl {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-i8yy4q {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ikjbln {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-iqmmu5 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#template-i8d1tj {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-iw32pl {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-i8ycf4 {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ioharg {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-icikfq {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-igi20x {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-i6qe3u {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-in0fwj {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ijwqyg {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-ixdwlw {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-i1kfuf {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-imelp2 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-ihpe1u {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iqn1yv {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-i9mj6v {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-iben1s {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-i4q7ej {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-irwp2d {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ilguv4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-i4ng44 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-i8clli {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-iz0w2s {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-i70cvw {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-iz3n5j {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-i3w49y {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-ixes4i {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-ikhnw7 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-ispqll {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ij299j {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-io5xpi {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-i4tsob {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-iwoznt {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-i2ac0j {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ix73gp {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-ior1hc {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-iegs0g {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-i42iy4 {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-iexbjf {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ij7y7s {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Georgiaserif;
+}
+
+#template-i9smov {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#template-ih4eql {
+    font-size: 24px;
+    font-family: Georgiaserif;
+}
+
+#template-ipwqoh {
+    height: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#template-ib4mih {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#template-ibum0x {
+    font-size: 30px;
+    font-family: Georgiaserif;
+    font-weight: 600;
+}
+
+#template-ie6zbd {
+    margin: 020px00;
+    border: 1pxsolid#01bdfc;
+    background-color: #01bdfc;
+}
+
+#template-i4h0kj {
+    margin: 020px00;
+    border: 1pxsolid#e4e4e4;
+    background-color: #e4e4e4;
+    color: #484848;
+}
+
+#template-it2j {
+    display: flex;
+    height: auto;
+    min-height: auto;
+    justify-content: flex-start;
+}
+
+#template-ip5k {
+    height: auto;
+    min-height: auto;
+    flex-basis: 75%;
+}
+
+@media(max-width:768px) {
+    .gjs-row {
+        flex-wrap: wrap;
+    }
+}

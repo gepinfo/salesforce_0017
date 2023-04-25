@@ -9,20 +9,22 @@ export class salesforceentityDao {
     private salesforceentity = salesforceentityModel;
     constructor() { }
     
-    public async GpDelete(salesforceentityId, callback){
+    public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpDelete');
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
 
     
     
     
-    this.salesforceentity.findByIdAndRemove(salesforceentityId).then((result)	=>
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpDelete');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
@@ -31,38 +33,22 @@ export class salesforceentityDao {
 }).catch((error)=>{
 callback(error);
 });}
-public async GpSearch(salesforceentityData, callback){
+public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpSearch');
-
-    let andkey ;let and_obj = {} ;let orkey ;let or_obj = {} ;;
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
+
     
-    Object.entries(salesforceentityData).forEach(
-                            ([key,value]) => {
-                                if(value !== ''){
-                                    andkey = key;
-                                    and_obj[andkey] = value;
-                                }
-                                else{
-                                    orkey = key;
-                                    or_obj[orkey] = { $ne: '' }
-                                }
-                            }
-                        );;
-    this.salesforceentity.find({$and: [
-                            {
-                                $or: [
-                                   or_obj
-                                ]
-                            },
-                            and_obj
-                        ]}).then((result)	=>
+    
+    
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpSearch');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
@@ -71,20 +57,22 @@ public async GpSearch(salesforceentityData, callback){
 }).catch((error)=>{
 callback(error);
 });}
-public async GpUpdate(salesforceentityData, callback){
+public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpUpdate');
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
 
     
     
     
-    this.salesforceentity.findOneAndUpdate({ _id: salesforceentityData._id }, salesforceentityData, { new: true }).then((result)	=>
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpUpdate');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
@@ -93,20 +81,22 @@ public async GpUpdate(salesforceentityData, callback){
 }).catch((error)=>{
 callback(error);
 });}
-public async GpGetEntityById(salesforceentityId, callback){
+public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetEntityById');
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
 
     
     
     
-    this.salesforceentity.findById(salesforceentityId).then((result)	=>
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetEntityById');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
@@ -115,20 +105,22 @@ public async GpGetEntityById(salesforceentityId, callback){
 }).catch((error)=>{
 callback(error);
 });}
-public async GpGetAllValues(callback){
+public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetAllValues');
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
 
     
     
     
-    this.salesforceentity.find().then((result)	=>
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetAllValues');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
@@ -137,20 +129,22 @@ public async GpGetAllValues(callback){
 }).catch((error)=>{
 callback(error);
 });}
-public async GpCreate(salesforceentityData, callback){
+public async GpGetNounCreatedBy(salesforceentityData, callback){
     
-    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpCreate');
-
-    let temp = new salesforceentityModel(salesforceentityData);
+    new CustomLogger().showLogger('info', 'Enter into salesforceentityDao.ts: GpGetNounCreatedBy');
 
     
+
     
     
-    temp.save().then((result)	=>
+    
+    this.salesforceentity.aggregate(([
+                        { $match: { $and: [{ created_by: salesforceentityData.created_by }] } }
+                    ])).then((result)	=>
      
              	{
 
-        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpCreate');
+        new CustomLogger().showLogger('info', 'Exit from salesforceentityDao.ts: GpGetNounCreatedBy');
 
         
 
